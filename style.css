@@ -17,10 +17,11 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   background: white ;
   background-position: center;
   background-size: cover;
+  
+  
 }
 .main {
     width: 35%;
@@ -45,7 +46,6 @@ body{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  /* margin: 4px 2px; */
   transition-duration: 0.4s;
   cursor: pointer;
 
@@ -60,16 +60,13 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap:wrap ;
-  width: 60%;
-  /* height: 200px; */
 }
 .card{
   margin-left: 15px;
   margin-top: 15px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 20%;
-  /* height: 200px; */
+  width: 200px;
   
 }
 .card:hover {
@@ -83,17 +80,17 @@ border-top-left-radius: 5px;
   
 }
 .container{
-  margin-top: 5px;
+  margin-top: 1px;
   text-align: center;
 }
 b{
-  font-size:2vw; 
+  font-size:100%; 
   color: #b1b1b1;
 }
 p{
   color: #446667;
   text-overflow: clip; 
-  font-size:1vw; 
+  font-size:90%; 
   overflow: hidden;
   text-overflow:ellipsis ;
 }
